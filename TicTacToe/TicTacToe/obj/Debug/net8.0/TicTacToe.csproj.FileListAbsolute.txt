@@ -1,0 +1,15 @@
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\bin\Debug\net8.0\TicTacToe.exe
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\bin\Debug\net8.0\TicTacToe.deps.json
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\bin\Debug\net8.0\TicTacToe.runtimeconfig.json
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\bin\Debug\net8.0\TicTacToe.dll
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\bin\Debug\net8.0\TicTacToe.pdb
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\obj\Debug\net8.0\TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\obj\Debug\net8.0\TicTacToe.AssemblyInfoInputs.cache
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\obj\Debug\net8.0\TicTacToe.AssemblyInfo.cs
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\obj\Debug\net8.0\TicTacToe.csproj.CoreCompileInputs.cache
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\obj\Debug\net8.0\TicTacToe.sourcelink.json
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\obj\Debug\net8.0\TicTacToe.dll
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\obj\Debug\net8.0\refint\TicTacToe.dll
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\obj\Debug\net8.0\TicTacToe.pdb
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\obj\Debug\net8.0\TicTacToe.genruntimeconfig.cache
+C:\users\ramad\OneDrive\Documents\GitHub\Profile-Projects\TicTacToe\TicTacToe\obj\Debug\net8.0\ref\TicTacToe.dll
