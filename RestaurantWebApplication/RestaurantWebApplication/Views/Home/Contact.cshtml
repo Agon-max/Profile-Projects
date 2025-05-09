@@ -1,0 +1,85 @@
+﻿@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Na kontaktoni";
+}
+
+<h1>British Lounge</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/image/BritishLounge.jpg" alt="British Lounge" class="img-thumbnail" />
+    </div>
+    <!-- / end of col-md-4 -->
+
+    <div class="col-md-8" style="text-align:justify;">
+        Ju mirëpresim në British Lounge, ku mikpritja britanike takohet me ngrohtësinë e Prishtinës! Për rezervime, porosi, ose pyetje të tjera, ju lutemi na kontaktoni përmes detajeve të mëposhtme:
+
+        <br /><br />📍 Lokacionet tona:
+
+        <br />British Lounge 1: Rr. Geroge Bush, Nr. 172
+        <br />British Lounge 2: Rr. Hasan Prishtina, Nr. 13
+        <br />British Lounge 3: Rruga B, Nr. 29/2
+        
+        <br /><br />📞 Na telefononi: +383 (0) 38 123 321
+        
+        <br />📧 Email: info@britishlounge.com
+        <br />🌐 Website: britishlounge.com
+        <br /><br />📱 Na ndiqni në rrjetet sociale:
+
+        <br />Facebook: <a href="#">BrishLounge</a>
+        <br />Instagram: <a href="#">BrishLounge</a>
+        
+        <br /><br />Jemi gjithmonë të gatshëm t’ju ofrojmë një përvojë të paharrueshme të ngrënies me shije autentike britanike dhe një atmosferë të ngrohtë!
+    </div>
+    <!-- / end of col-md-8 -->
+</div>
+<!-- / end of row -->
+
+<br />
+
+<div class="row">
+    <div class="col-md-8 offset-md-4">
+        @{
+            var currentIsSentParam = Convert.ToBoolean(ViewBag.IsSent != null ? ViewBag.IsSent : false);
+
+            if (currentIsSentParam == true)
+            {
+                <div class="alert alert-success">
+                    <p>Mesazhi juaj është dërguar me sukses.</p>
+                </div>
+                <!-- / end of .alert -->
+            }
+            else
+            {
+                <form method="post" action="@Url.Action("Contact", "Home")">
+                    <div class="mb-3">
+                        <label for="FullName">Emri dhe mbiemri:</label>
+                        <input type="text" class="form-control" name="FullName" id="FullName" placeholder="Ju lutem të shkruani emrin dhe mbiemrin"/>
+                    </div>
+                    <!-- / end of .mb-3 -->
+
+                    <div class="mb-3">
+                        <label for="EmailAddress">Email adresa:</label>
+                        <input type="email" class="form-control" name="EmailAddress" id="EmailAddress" placeholder="Ju lutem të shkruani email adresën"/>
+                    </div>
+                    <!-- / end of .mb-3 -->
+
+                    <div class="mb-3">
+                        <label for="MessageText">Mesazhi juaj:</label>
+                        <textarea rows="10" class="form-control" name="MessageText" id="MessageText" placeholder="Ju lutem të shkruani mesazhuan tuaj këtu"></textarea>
+                    </div>
+                    <!-- / end of .mb-3 -->
+
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary">Dërgo mesazhin</button>
+                        <button type="reset" class="btn btn-danger">Pastro fushat</button>
+                    </div>
+                    <!-- / end of .mb-3 -->
+                </form>
+                <!-- / end of form -->
+            }
+        }
+    </div>
+    <!-- / end of .col-md-12 -->
+</div>
+<!-- / end of .row -->

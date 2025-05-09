@@ -1,0 +1,313 @@
+﻿@model List<Food>
+
+@{
+    ViewData["Title"] = "Menyja";
+
+    var foodTypes = Model.DistinctBy(r => r.FoodType).ToList();
+}
+
+@foreach (var foodType in foodTypes)
+{
+    var foods = Model.Where(r => r.FoodTypeId == foodType.FoodTypeId)
+        .OrderBy(r => r.Name).ToList();
+
+    <div class="row mb-4">
+        <div class="col-sm-12 col-md-12">
+            <div class="pb-2 mb-4 border-bottom">
+                <h1 class="h2">@foodType.FoodType.Name</h1>
+            </div>
+        </div>
+        <!-- / end of col-md-12 -->
+        
+        @foreach (var food in foods)
+        {
+            <div class="col-sm-4 col-md-3">
+                <div class="card mb-4">
+                    <img src="~/image/food/@food.Image" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @food.Name
+                        </h5>
+                        
+                        <p class="card-text" style="min-height: 100px; max-height: 100px; overflow-y: auto;">
+                            @food.Description
+                        </p>
+                        
+                        <p>
+                            <span class="badge text-bg-success">@food.Price.ToString("N2") €</span>
+                        </p>
+
+                        <button class="btn btn-primary" cart-btn
+                                data-food-id="@food.Id"
+                                data-food-name="@food.Name"
+                                data-food-price="@food.Price"
+                                data-food-image="@food.Image">
+                            Shto në shportë
+                        </button>
+
+                        <span class="position-absolute top-0 translate-middle p-2 bg-danger border border-light rounded-circle text-nowrap" style="left: 90%; z-index:100; color:#ffffff;">
+                            <span>@food.Price.ToString("N2") €</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- / end of col-md-4 -->
+        }
+    </div>
+    <!-- / end of .row -->
+}
+
+<div class="modal" tabindex="-1" id="product_order_modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Porosit</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row mb-2">
+                    <div class="col">
+                        <label for="first_name">Emri:</label>
+                        <input type="text" name="first_name" id="first_name" class="form-control" />
+                    </div>
+
+                    <div class="col">
+                        <label for="last_name">Mbiemri:</label>
+                        <input type="text" name="last_name" id="last_name" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="row mb-2">
+                    <div class="col">
+                        <label for="phone_number">Numri telefonit:</label>
+                        <input type="text" name="phone_number" id="phone_number" class="form-control" />
+                    </div>
+
+                    <div class="col">
+                        <label for="email_address">Email adresa:</label>
+                        <input type="text" name="email_address" id="email_address" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="row mb-2">
+                    <div class="col">
+                        <label for="address">Adresa:</label>
+                        <input type="text" name="address" id="address" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="row mb-2" id="product_list">
+                    <div class="col">
+                        <p>Produktet</p>
+                    </div>
+                </div>
+
+                <div class="row mb-2">
+                    <div class="col">
+                        <label for="total_price">Çmimi në total:</label>
+                        <input type="text" name="total_price" id="total_price" class="form-control" readonly="readonly" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Mbylle</button>
+                <button type="button" class="btn btn-primary" onclick="submitOrder(this);">Dërgo porosinë</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script type="text/javascript">
+        let isValidEmail = function (email) {
+            const regex = /^[^\s@@]+@@[^\s@@]+\.[^\s@@]+$/;
+            return regex.test(email);
+        }
+
+        let calculateOrderedProductPricesForModal = function(){
+            let currentOrderedProducts = document.querySelectorAll("ul.navbar-nav li.dropdown ul.dropdown-menu li[data-product]");
+            
+            let totalProductsPrice = 0;
+
+            currentOrderedProducts.forEach(function(currentProduct){
+                let currentProductDetails = currentProduct.querySelectorAll("table td");
+                let currentProductPrice = parseFloat(currentProductDetails[2].querySelector("b").innerHTML.replace(" €", ""));
+
+                totalProductsPrice += currentProductPrice;
+            });
+
+            return totalProductsPrice + " €";
+        };
+
+        let calculateOrderedProductPrices = function(){
+            let currentOrderedProducts = document.querySelectorAll("ul.navbar-nav li.dropdown ul.dropdown-menu li[data-product]");
+            let currentOrderProductBtn = document.querySelector("ul.navbar-nav li.dropdown ul.dropdown-menu li[data-product-order-btn] button");
+
+            let totalProductsPrice = 0;
+
+            currentOrderedProducts.forEach(function(currentProduct){
+                let currentProductDetails = currentProduct.querySelectorAll("table td");
+                let currentProductPrice = parseFloat(currentProductDetails[2].querySelector("b").innerHTML.replace(" €", ""));
+
+                totalProductsPrice += currentProductPrice;
+            });
+
+            currentOrderProductBtn.innerHTML = "Bëje porosinë (" + totalProductsPrice + " €)";
+        };
+
+        let removeOrderProductsIfNeeded = function(){
+            let currentCartSelector = document.querySelector("ul.navbar-nav li.dropdown ul[cart-items]");
+            let currentProductsInCart = currentCartSelector.querySelectorAll("li[data-product]").length;
+
+            let thereIsNoProductsInCart = '<li class="d-flex justify-content-start"><a class="dropdown-item" href="#">Momentalisht nuk keni produkte në shportë!</a></li>';
+
+            if(currentProductsInCart == 0){
+                currentCartSelector.innerHTML = thereIsNoProductsInCart;
+            }
+        };
+
+        let removeProductFromCard = function(currentBtn){
+            // Select the product in total
+            let currentProduct = currentBtn.closest("li");
+
+            // Remove the selected product from list
+            currentProduct.remove();
+
+            // Calculate the product prices in total
+            calculateOrderedProductPrices();
+
+            // Remove the order button
+            removeOrderProductsIfNeeded();
+        };
+
+        let clearOrderedProducts = function(){
+            let thereIsNoProductsInCart = '<li class="d-flex justify-content-start"><a class="dropdown-item" href="#">Momentalisht nuk keni produkte në shportë!</a></li>';
+
+            document.querySelector("ul.navbar-nav li.dropdown ul.dropdown-menu").innerHTML = thereIsNoProductsInCart;
+
+            // OrderProducts modal selector
+            let currentModal = document.querySelector("#product_order_modal");
+
+            // Clear modal inputs
+            currentModal.querySelector("input[name='first_name']").value = "";
+            currentModal.querySelector("input[name='last_name']").value = "";
+            currentModal.querySelector("input[name='phone_number']").value = "";
+            currentModal.querySelector("input[name='email_address']").value = "";
+            currentModal.querySelector("input[name='address']").value = "";
+            currentModal.querySelector("input[name='total_price']").value = "";
+        };
+
+        let orderProductsModal = function(currentBtn){
+            let productItems = '';
+
+            document.querySelectorAll("ul.navbar-nav li.dropdown ul.dropdown-menu li[data-product]").forEach(function(product){
+                productItems += product.innerHTML.replace('<td><span class="badge rounded-pill bg-danger" onclick="removeProductFromCard(this);" style="cursor: pointer;"> Largo</span></td>', '');
+            });
+
+            document.querySelector("#product_order_modal .modal-body #product_list .col").innerHTML = productItems;
+            document.querySelector("#product_order_modal .modal-body input[name='total_price']").value = calculateOrderedProductPricesForModal();
+
+            jQuery("#product_order_modal").modal("show");
+        };
+
+        let submitOrder = function(currentBtn){
+            let currentModal = document.querySelector("#product_order_modal");
+
+            let obj = {
+                FirstName : currentModal.querySelector("input[name='first_name']").value,
+                LastName : currentModal.querySelector("input[name='last_name']").value,
+                PhoneNumber : currentModal.querySelector("input[name='phone_number']").value,
+                EmailAddress : currentModal.querySelector("input[name='email_address']").value,
+                Address : currentModal.querySelector("input[name='address']").value,
+                TotalPrice : parseFloat(currentModal.querySelector("input[name='total_price']").value.replace(' €', '')),
+                Products : []
+            };
+
+            document.querySelectorAll("ul.navbar-nav li.dropdown ul.dropdown-menu li[data-product]").forEach(function(product){
+                obj.Products.push(parseInt(product.getAttribute("data-id")));
+            });
+
+            if(obj.FirstName.length < 1){
+                alert("Ju lutem të shkruani emrin tuaj.");
+                return false;
+            }
+
+            if(obj.LastName.length < 1){
+                alert("Ju lutem të shkruani mbiemrin tuaj.");
+                return false;
+            }
+
+            if(obj.PhoneNumber.length < 9 || obj.PhoneNumber.length > 12){
+                alert("Ju lutem të shkruani numrin tuaj të telefonit.");
+                return false;
+            }
+
+            if(obj.EmailAddress.length < 7){
+                alert("Ju lutem të shkruani email adresen tuaj.");
+                return false;
+            }
+
+            if(isValidEmail(obj.EmailAddress) == false){
+                alert("Ju lutem të shkruani email adresen tuaj valide.");
+                return false;
+            }
+
+            if(obj.Address.length < 10){
+                alert("Ju lutem të shkruani adresen tuaj (deri në 10 karaktere minimalisht).");
+                return false;
+            }
+
+            if(obj.Products.length < 1){
+                alert("Ju lutem të specifikoni produktin/et.");
+                return false;
+            }
+
+            jQuery.ajax({
+                url: '@Url.Action("OrderSubmission", "Home")',
+                type: 'POST',
+                data: obj,
+                success: function(response) {
+                    alert(response.message);
+
+                    if(response.status == true){
+                        jQuery(currentModal).modal("hide");
+                        clearOrderedProducts();
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.error('Error:', error);
+                }
+            });
+        };
+
+        jQuery(function(){
+            document.querySelectorAll("button[cart-btn]").forEach(function(button){
+                button.addEventListener("click", function(){
+                    let currentCartSelector = document.querySelector("ul.navbar-nav li.dropdown ul[cart-items]");
+
+                    let currentSelector = this;
+                    let currentProductId = parseInt(currentSelector.getAttribute("data-food-id"));
+                    let currentProductName = currentSelector.getAttribute("data-food-name");
+                    let currentProductPrice = currentSelector.getAttribute("data-food-price");
+                    let currentProductImage = currentSelector.getAttribute("data-food-image");
+
+                    let newProduct = '<li data-product data-id="' + currentProductId + '" class="d-flex justify-content-start"><table class="table table-borderless m-0" style="width:100%;"><tbody><tr><td><div class="text-center"><img src="/image/food/' + currentProductImage + '" class="rounded" alt="..." width="50" /></div></td><td>' + currentProductName + '</td><td class="text-nowrap"><b>' + currentProductPrice + ' €</b></td><td><span class="badge rounded-pill bg-danger" onclick="removeProductFromCard(this);" style="cursor: pointer;"> Largo</span></td></tr></tbody></table></li>';
+
+                    let orderProductsBtn = '<li data-product-order-btn class="d-flex justify-content-start"><table class="table table-borderless m-0" style="width:100%;"><tbody><tr><td><button class="btn btn-primary w-100" type="button" onclick="orderProductsModal(this);">Bëje porosinë</button></td></tr></tbody></table></li>';
+
+                    let currentProductsInCart = currentCartSelector.querySelectorAll("li[data-product]").length;
+
+                    if(currentProductsInCart == 0){
+                        currentCartSelector.innerHTML = orderProductsBtn + newProduct;
+                    } else {
+                        currentCartSelector.innerHTML = currentCartSelector.innerHTML + newProduct;
+                    }
+
+                    // Calculate the product prices in total
+                    calculateOrderedProductPrices();
+                });
+            });
+        });
+    </script>
+}

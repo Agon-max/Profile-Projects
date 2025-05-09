@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Krijo përdorues të ri";
+
+    var isUserCreated = (bool)ViewBag.IsUserCreated;
+
+    var emailErrors = ViewData.ModelState["EmailAddress"]?.Errors;
+    var passwordErrors = ViewData.ModelState["Password"]?.Errors;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (isUserCreated == false)
+{
+    <form class="row" action="@Url.Action("Register", "User")" method="POST">
+        <div class="col-md-6">
+            <div class="mb-3">
+                <label for="EmailAddress">Email adresa:</label>
+                <input type="email" class="form-control" name="EmailAddress" id="EmailAddress" placeholder="Ju lutem të shkruani email adresen e përdoruesit"/>
+            
+                @if (emailErrors != null && emailErrors.Count > 0)
+                {
+                    <span class="text-danger">@emailErrors[0].ErrorMessage</span>
+                }
+            </div>
+            <!-- / end of .mb-3 -->
+        </div>
+        <!-- / end of .col-md-6 -->
+
+        <div class="col-md-6">
+            <div class="mb-3">
+                <label for="Password">Fjalëkalimi:</label>
+                <input type="password" class="form-control" name="Password" id="Password" placeholder="Ju lutem të shkruani fjalëkalimin"/>
+
+                @if (passwordErrors != null && passwordErrors.Count > 0)
+                {
+                    <span class="text-danger">@passwordErrors[0].ErrorMessage</span>
+                }
+            </div>
+            <!-- / end of .mb-3 -->
+        </div>
+        <!-- / end of .col-md-6 -->
+
+        <div class="col-md-6">
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">Regjistro</button>
+                <button type="reset" class="btn btn-danger">Pastro fushat</button>
+            </div>
+            <!-- / end of .mb-3 -->
+        </div>
+        <!-- / end of .col-md-6 -->
+    </form>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-12">
+            <div class="mb-3">
+                <div class="alert alert-success">
+                    <p>Përdoruesi është regjistruar me sukses.</p>
+                </div>
+                <!-- / end of .alert -->
+            </div>
+            <!-- / end of .mb-3 -->
+        </div>
+        <!-- / end of .col-md-12 -->
+
+        <div class="col-md-6">
+            <div class="mb-3">
+                <a href="@Url.Action("Create", "User")" class="btn btn-danger">
+                    Regjistro përdorues të ri
+                </a>
+            </div>
+            <!-- / end of .mb-3 -->
+        </div>
+        <!-- / end of .col-md-6 -->
+    </div>
+}

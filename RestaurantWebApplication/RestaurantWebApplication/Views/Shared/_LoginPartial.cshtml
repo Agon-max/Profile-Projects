@@ -1,0 +1,44 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav">
+    @{
+        var controller = (ViewContext.RouteData.Values["controller"] ?? "").ToString();
+        var action = (ViewContext.RouteData.Values["action"] ?? "").ToString();
+
+        if (controller == "Home" && action == "Menu")
+        {
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shporta
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" style="width: 350px;" cart-items>
+                    <li class="d-flex justify-content-start">
+                        <a class="dropdown-item" href="#">
+                            Momentalisht nuk keni produkte në shportë!
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        }
+    }
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Profili im</a>
+        </li>
+        <li class="nav-item">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-link text-dark">Dil</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Hyr</a>
+        </li>
+    }
+</ul>

@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RestaurantWebApplication.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RestaurantWebApplication.delhgmyh5t.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\BritishLounge.jpg",
+      "PackagePath": "staticwebassets\\image\\BritishLounge.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\big-springs.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\big-springs.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\bravo-orange.png",
+      "PackagePath": "staticwebassets\\image\\food\\bravo-orange.png"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\buke-misri-me-kos.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\buke-misri-me-kos.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\clams.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\clams.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\cola-zero.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\cola-zero.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\cola.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\cola.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\cosmopolitan.jpeg",
+      "PackagePath": "staticwebassets\\image\\food\\cosmopolitan.jpeg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\daiquiri.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\daiquiri.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\fanta.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\fanta.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\fish.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\fish.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\flija.jpeg",
+      "PackagePath": "staticwebassets\\image\\food\\flija.jpeg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\martini.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\martini.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\mojito.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\mojito.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\pepsi.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\pepsi.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\pite.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\pite.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\pizza-ham.png",
+      "PackagePath": "staticwebassets\\image\\food\\pizza-ham.png"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\pizza-margarita.png",
+      "PackagePath": "staticwebassets\\image\\food\\pizza-margarita.png"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\schweppes_bitter_lemon.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\schweppes_bitter_lemon.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\shrimp.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\shrimp.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\spritecan.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\spritecan.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\squid.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\squid.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\image\\food\\suxhuk-ne-pjate.jpg",
+      "PackagePath": "staticwebassets\\image\\food\\suxhuk-ne-pjate.jpg"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\SHM\\Academy\\BCS\\2024-2025\\Viti II\\KONCEPTET E AVANCUARA PËR UEB\\SHM_ACFTW_Practice\\SHM_ACFTW_Practice_11\\RestaurantWebApplication\\RestaurantWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RestaurantWebApplication.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RestaurantWebApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RestaurantWebApplication.props",
+      "PackagePath": "build\\RestaurantWebApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RestaurantWebApplication.props",
+      "PackagePath": "buildMultiTargeting\\RestaurantWebApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RestaurantWebApplication.props",
+      "PackagePath": "buildTransitive\\RestaurantWebApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
